@@ -1,5 +1,4 @@
-#lista de produtos (nombre, precio y stock)
-
+# lista de productos (nombre, precio y stock)
 productos = [
     {"nombre": "Fresas", "precio":5000, "stock": 10},
     {"nombre": "Banano", "precio":2000, "stock": 20},
@@ -10,3 +9,6 @@ productos = [
     {"nombre": "Pera",   "precio":2500, "stock": 34},
     {"nombre": "Manzana","precio":3200, "stock": 28},
 ]
+
+def obtener_productos():
+    return productos
